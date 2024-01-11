@@ -300,7 +300,7 @@ background: #404BBF;
 .icon-list-link:hover {
   background-color: #404BBF;
 }
-.icon-list-link:focus{
+.icon-list-link:active{
     background-color: #404BBF;
 }
 .icons-team{
@@ -472,7 +472,6 @@ color: var(--IRIS, #4D5AE5);
 .icon-footer-list{
   width: 40px;
   height: 40px;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .icon-link-footer{
   display: flex;
@@ -482,10 +481,11 @@ color: var(--IRIS, #4D5AE5);
   border-radius: 50%;
   align-items: center;
 justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link-footer:hover {
 background-color: #31d0aa;}
 
-.icon-link-footer:focus{
+.icon-link-footer:active{
 background-color: #31d0aa;
 }
