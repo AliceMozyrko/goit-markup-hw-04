@@ -88,7 +88,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 .current{
   position: relative;
-  color:#404BBF
+  color:#404BBF;
 }
 .header-menu-link {
   color:#2E2F42;
@@ -300,7 +300,7 @@ background: #404BBF;
 .icon-list-link:hover {
   background-color: #404BBF;
 }
-.icon-list-link:active{
+.icon-list-link:focus{
     background-color: #404BBF;
 }
 .icons-team{
@@ -484,8 +484,9 @@ justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link-footer:hover {
-background-color: #31d0aa;}
+background-color: #31d0aa;
+}
 
-.icon-link-footer:active{
+.icon-link-footer:focus{
 background-color: #31d0aa;
 }
