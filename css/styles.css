@@ -301,7 +301,7 @@ background: #404BBF;
 .icon-list-link:hover {
   background-color: #404BBF;
 }
-.icon-list-link:focus {
+.icon-list-link:focus-visible {
   background-color: #404BBF;
 }
 .icons-team{
