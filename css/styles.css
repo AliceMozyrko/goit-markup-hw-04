@@ -298,8 +298,7 @@ background: #404BBF;
   margin-top: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-list-link:hover,
-.icon-list-link:focus {
+.icon-list:hover, .icon-list:focus {
   background-color: #404BBF;
 }
 .icons-team{
@@ -481,8 +480,7 @@ color: var(--IRIS, #4D5AE5);
 justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-link-footer:hover,
-.icon-link-footer:focus {
+.icon-footer-list:hover, .icon-footer-list:focus {
 background-color: #31d0aa;
 }
 
