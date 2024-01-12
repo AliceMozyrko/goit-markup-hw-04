@@ -407,7 +407,10 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 
 /* -------------FOOTER--------- */
-
+.container-footer{
+  display: flex;
+  align-items: baseline;
+}
 .footer{
   background: var(--NAVY-BLUE, #2E2F42);
   padding: 100px 0;
